@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Futura MD BT';
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color: dimgrey;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 10px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.header-right a {
+    line-height: 60px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    text-decoration: none;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+
+.bagian-utama {
+    padding: 120px 0 100px 0;
+    background-image: url(img/gambar.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+
+.bagian-utama h1 {
+    opacity: 0.8;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.animate::before{
+	content: '';
+	animation: animasi infinite 7s;
+    color: white;
+}
+
+@keyframes animasi{
+	0%{
+		content: 'HTML';
+	}
+
+	50%{
+		content: 'CSS';
+	}
+
+	100%{
+		content: 'JavaScript';
+	}
+}
+
+.bagian-utama p {
+    opacity: 0.9;
+    padding-top: 10px;
+    margin: 15px 0 5px 0;
+}
+
+.bagian-utama h2, h3 {
+    opacity: 0.7;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0 35px 0;
+}
+
+.btn-wrapper h2 {
+    font-size: 20px;
+    opacity: 0.7;
+    letter-spacing: 2px;
+    margin: 30px 0 20px 0;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+}
+    .btn:hover {
+        opacity: 1;
+    }
+
+.dts {
+    background-color: rgba(152, 148, 148, 0.5);
+    margin-bottom: 30px;
+}
+
+.tim {
+    background-color: rgba(152, 148, 148, 0.5);
+}
+
+.footer-logo {
+    font-family: "Bebas Neue Bold";
+    font-size: 40px;
+    color: #ffffff;
+}
+
+li {
+    font-size: 24px;
+    font-family: "Montserrat Bold";
+    color: #a4b0be;
+}
+
+.footer {
+    background-color: #2f3542;
+    height: 43px;
+}
